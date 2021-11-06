@@ -24,7 +24,21 @@ There are two classes of approaches for object detection:
       a(image) --> b(Feature Extraction) --> c(Classification) & d(Localization)
     ```
 
-**Dataset:** PASCAL VOC
+## PASCAL VOC 2012
+- Task: Predicting the bounding box and label of each object from the twenty target classes in the test image.
+- 20 classes
+    - Person: person
+    - Animal: bird, cat, cow, dog, horse, sheep
+    - Vehicle: aeroplane, bicycle, boat, bus, car, motorbike, train
+    - Indoor: bottle, chair, dining table, potted plant, sofa, tv/monitor
+- train/val data has 11,530 images containing 27,450 ROI annotated object
+- [Official Website](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar)
+- [Training/Validation data](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar)
+- Data Split:
+  1. train: Training data
+  2. val: Validation data
+  3. trainval: The union of train and val
+
 
 ## Faster R-CNN
 **Jupyter Notebook:** [r_cnn.ipynb](./r_cnn.ipynb)
