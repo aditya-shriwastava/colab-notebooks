@@ -9,7 +9,7 @@ There are two classes of approaches for object detection:
       1. **First Stage:** Proposes Reason of Interest
       2. **Second Stage:** Classification and Bounding Box Regression.
     - Example: Faster R-CNN
-    - Have high localization and object recognition accuracy.
+    - Have high localization and object recognition accuracy, but slow compared to one stage detector.
     ```mmd
     graph LR;
       a(image) --> b(Feature Extraction) --> c(Exraction of<br>Object Proposals) --> d(Classification) & e(Localization)
@@ -18,13 +18,13 @@ There are two classes of approaches for object detection:
 2. One Stage Detector:
     - Propose predicted boxes from input images directly without region proposal step.
     - Example: YOLO
-    - High inference speed, so can be used for real-time devices.
+    - High inference speed, so can be used for real-time devices, but accuracy is not as good as two stage detector.
     ```mmd
     graph LR;
       a(image) --> b(Feature Extraction) --> c(Classification) & d(Localization)
     ```
 
-## PASCAL VOC 2012
+## Dataset: PASCAL VOC 2012
 - Task: Predicting the bounding box and label of each object from the twenty target classes in the test image.
 - 20 classes
     - Person: person
@@ -42,3 +42,8 @@ There are two classes of approaches for object detection:
 
 ## Faster R-CNN
 **Jupyter Notebook:** [r_cnn.ipynb](./r_cnn.ipynb)
+
+### TODO
+1. Script for loading dataset.
+  1.1. This will be nice as when you run it on google colab it will be easy to download it.
+
