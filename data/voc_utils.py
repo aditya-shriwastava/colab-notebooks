@@ -12,7 +12,7 @@ import skimage
 from skimage import io
 
 
-root_dir = './VOC2012/'
+root_dir = './data/VOCdevkit/VOC2012/'
 img_dir = os.path.join(root_dir, 'JPEGImages/')
 ann_dir = os.path.join(root_dir, 'Annotations')
 set_dir = os.path.join(root_dir, 'ImageSets', 'Main')
