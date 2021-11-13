@@ -44,7 +44,4 @@ There are two classes of approaches for object detection:
 **Jupyter Notebook:** [r_cnn.ipynb](./r_cnn.ipynb)
 
 ### TODO
-1. Some confusion on how object proposals is handled in image space and feature space.
-  1.1. Read fast R-CNN paper to understand this. 
-  1.2. Because fast R-CNN introduced this.
-
+* Run pre-trained image-net model.

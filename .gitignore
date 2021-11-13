@@ -1,5 +1,6 @@
 .ipynb_checkpoints/
 __pycache__
-data/VOCdevkit/
+data/datasets/VOC2012/VOCdevkit/
 *.tar
 *.swp
+*.pth
