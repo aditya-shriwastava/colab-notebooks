@@ -1,3 +1,1 @@
-# AI Notebooks
-1. [Object Detection](./ObjectDetection.md)
-
+[Docs](./docs/index.md)
