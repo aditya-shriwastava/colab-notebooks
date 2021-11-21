@@ -1,3 +1,4 @@
+## Object Detection
 Object detection involves two tasks:
 1. **Object Localization**: Putting bounding box around potential objects.
 2. **Image Classification:** Predicting the class of object within the bounding box.
